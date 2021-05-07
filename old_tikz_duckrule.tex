@@ -1,0 +1,17 @@
+% For removing duck based page numbering comment out
+% \RequirePackage{tikzducks}
+%  
+% and place the following inside \fancypagestyle 's
+% second argument not plain one
+%
+%  \cfoot{%
+%    \shuffleducks
+%    \begin{tikzpicture}[scale=0.5] 
+%        \duck[signpost=\scalebox{0.6}{\thepage},\randomhead]
+%    \end{tikzpicture}
+%}
+%
+%and comment in   
+% \cfoot{{\small\thepage}}
+%
+%and vice versa to add TikZducks numbering
